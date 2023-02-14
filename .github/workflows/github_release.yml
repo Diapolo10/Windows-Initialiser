@@ -25,7 +25,7 @@ jobs:
 
       - name: Build releases
         run: |
-          Invoke-ps2exe .\Winit\main.ps1 .\build\winit.exe
+          ps2exe .\Winit\main.ps1 .\build\winit.exe
 
       - name: Upload builds
         uses: actions/upload-artifact@v3
