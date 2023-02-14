@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Here you can find the default program installations -->
+<ProgramGroups>
+  <ProgramGroup Name="Generic">
+    <Program Name="7-Zip" Id="7zip.7zip" InstallArgs="" />
+    <Program Name="CPUID HWMonitor" Id="CPUID.HWMonitor" InstallArgs="" />
+    <Program Name="CPUID ROG CPU-Z" Id="CPUID.CPU-Z.ROG" InstallArgs="" />
+    <Program Name="TechPowerUp GPU-Z" Id="TechPowerUp.GPU-Z" InstallArgs="" />
+    <Program Name="CrystalDiskInfo" Id="CrystalDewWorld.CrystalDiskInfo" InstallArgs="" />
+    <Program Name="CrystalDiskInfo Kurei Kei Edition" Id="CrystalDewWorld.CrystalDiskInfo.KureiKeiEdition" InstallArgs="" />
+    <Program Name="CrystalDiskInfo Shizuku Edition" Id="CrystalDewWorld.CrystalDiskInfo.ShizukuEdition" InstallArgs="" />
+    <Program Name="Firefox" Id="Mozilla.Firefox" InstallArgs="" />
+    <Program Name="HWiNFO" Id="REALiX.HWiNFO" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2005 Redistributable (x86)" Id="Microsoft.VCRedist.2005.x86" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2005 Redistributable (x64)" Id="Microsoft.VCRedist.2005.x64" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2008 Redistributable (x86)" Id="Microsoft.VCRedist.2008.x86" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2008 Redistributable (x64)" Id="Microsoft.VCRedist.2008.x64" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2010 Redistributable (x86)" Id="Microsoft.VCRedist.2010.x86" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2010 Redistributable (x64)" Id="Microsoft.VCRedist.2010.x64" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2012 Redistributable (x86)" Id="Microsoft.VCRedist.2012.x86" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2012 Redistributable (x64)" Id="Microsoft.VCRedist.2012.x64" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2013 Redistributable (x86)" Id="Microsoft.VCRedist.2013.x86" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2013 Redistributable (x64)" Id="Microsoft.VCRedist.2013.x64" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2015-2022 Redistributable (x86)" Id="Microsoft.VCRedist.2015+.x86" InstallArgs="" />
+    <Program Name="Microsoft Visual C++ 2015-2022 Redistributable (x64)" Id="Microsoft.VCRedist.2015+.x64" InstallArgs="" />
+    <Program Name="NirSoft BlueScreenView" Id="NirSoft.BlueScreenView" InstallArgs="" />
+    <Program Name="PowerShell 7" Id="Microsoft.PowerShell" InstallArgs="" />
+    <Program Name="qBittorrent" Id="qBittorrent.qBittorrent" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Programming">
+    <Program Name="Arduino IDE" Id="ArduinoSA.IDE.stable" InstallArgs="" />
+    <Program Name="Cygwin" Id="Cygwin.Cygwin" InstallArgs="" />
+    <Program Name="DB Browser for SQLite" Id="DBBrowserForSQLite.DBBrowserForSQLite" InstallArgs="" />
+    <Program Name="Docker Desktop" Id="Docker.DockerDesktop" InstallArgs="" />
+    <Program Name="Git" Id="Git.Git" InstallArgs="" />
+    <Program Name="GitHub Desktop" Id="GitHub.GitHubDesktop" InstallArgs="" />
+    <Program Name="Microsoft Visual Studio Code" Id="Microsoft.VisualStudioCode" InstallArgs="" />
+    <Program Name="Miniconda3" Id="Anaconda.Miniconda3" InstallArgs="" />
+    <Program Name="Node.js" Id="OpenJS.NodeJS" InstallArgs="" />
+    <Program Name="Postman" Id="Postman.Postman" InstallArgs="" />
+    <Program Name="Python 3.10" Id="Python.Python.3.10" InstallArgs="" />
+    <Program Name="Python 3.11" Id="Python.Python.3.11" InstallArgs="" />
+    <Program Name="Rustup: the Rust toolchain installer" Id="Rustlang.Rustup" InstallArgs="" />
+    <Program Name="Visual Studio Build Tools 2019" Id="Microsoft.VisualStudio.2019.BuildTools" InstallArgs="" />
+    <Program Name="Visual Studio Build Tools 2022" Id="Microsoft.VisualStudio.2022.BuildTools" InstallArgs="" />
+    <Program Name="Visual Studio Community 2022" Id="Microsoft.VisualStudio.2022.Community" InstallArgs="" />
+    <Program Name="Windows Terminal" Id="Microsoft.WindowsTerminal" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Gaming">
+    <Program Name="Discord" Id="Discord.Discord" InstallArgs="" />
+    <Program Name="EA Desktop" Id="ElectronicArts.EADesktop" InstallArgs="" />
+    <Program Name="Epic Games Launcher" Id="EpicGames.EpicGamesLauncher" InstallArgs="" />
+    <Program Name="GOG Galaxy" Id="GOG.Galaxy" InstallArgs="" />
+    <Program Name="Minecraft Launcher" Id="Mojang.MinecraftLauncher" InstallArgs="" />
+    <Program Name="NVIDIA GeForce Experience" Id="Nvidia.GeForceExperience" InstallArgs="" />
+    <Program Name="Steam" Id="Valve.Steam" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Multimedia">
+    <Program Name="Blender" Id="BlenderFoundation.Blender" InstallArgs="" />
+    <Program Name="FFmpeg" Id="Gyan.FFmpeg" InstallArgs="" />
+    <Program Name="GIMP" Id="GIMP.GIMP" InstallArgs="" />
+    <Program Name="HandBrake" Id="HandBrake.HandBrake" InstallArgs="" />
+    <Program Name="Kdenlive video editor" Id="KDE.Kdenlive" InstallArgs="" />
+    <Program Name="MPC-BE" Id="MPC-BE.MPC-BE" InstallArgs="" />
+    <Program Name="Paint.NET" Id="dotPDNLLC.paintdotnet" InstallArgs="" />
+    <Program Name="REAPER" Id="Cockos.REAPER" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Benchmarking">
+    <Program Name="AIDA64 Engineer" Id="FinalWire.AIDA64.Engineer" InstallArgs="" />
+    <Program Name="AIDA64 Extreme" Id="FinalWire.AIDA64.Extreme" InstallArgs="" />
+    <Program Name="Cinebench" Id="9PGZKJC81Q7J" InstallArgs="" />
+    <Program Name="CrystalDiskMark" Id="CrystalDewWorld.CrystalDiskMark" InstallArgs="" />
+    <Program Name="CrystalDiskMark Shizuku Edition" Id="CrystalDewWorld.CrystalDiskMark.ShizukuEdition" InstallArgs="" />
+    <Program Name="Geekbench 4" Id="PrimateLabs.Geekbench.4" InstallArgs="" />
+    <Program Name="Geekbench 5" Id="PrimateLabs.Geekbench.5" InstallArgs="" />
+    <Program Name="MSI Kombustor 4" Id="MSI.Kombustor.4" InstallArgs="" />
+    <Program Name="Open Capture and Analysis Tool (OCAT)" Id="AMD.OCAT" InstallArgs="" />
+    <Program Name="Unigine Heaven Benchmark" Id="Unigine.HeavenBenchmark" InstallArgs="" />
+    <Program Name="Unigine Valley Benchmark" Id="Unigine.ValleyBenchmark" InstallArgs="" />
+    <Program Name="Unigine Superposition Benchmark" Id="Unigine.SuperpositionBenchmark" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Streaming">
+    <Program Name="Nvidia Broadcast" Id="Nvidia.Broadcast" InstallArgs="" />
+    <Program Name="Nvidia RTX Voice" Id="Nvidia.RTXVoice" InstallArgs="" />
+    <Program Name="OBS Studio" Id="OBSProject.OBSStudio" InstallArgs="" />
+    <Program Name="Streamlabs Desktop" Id="Streamlabs.Streamlabs" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Cloud Services">
+    <Program Name="Dropbox" Id="Dropbox.Dropbox" InstallArgs="" />
+    <Program Name="Google Drive" Id="Google.Drive" InstallArgs="" />
+    <Program Name="MEGASync" Id="Mega.MEGASync" InstallArgs="" />
+    <Program Name="Microsoft OneDrive" Id="Microsoft.OneDrive" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Tools">
+    <Program Name="AutoHotkey" Id="Lexikos.AutoHotkey" InstallArgs="" />
+    <Program Name="Intel Driver and Support Assistant" Id="Intel.IntelDriverAndSupportAssistant" InstallArgs="" />
+    <Program Name="KeePassXC" Id="KeePassXCTeam.KeePassXC" InstallArgs="" />
+    <Program Name="SyncTrayzor" Id="SyncTrayzor.SyncTrayzor" InstallArgs="" />
+    <Program Name="Unified Remote" Id="UnifiedIntents.UnifiedRemote" InstallArgs="" />
+    <Program Name="VeraCrypt" Id="IDRIX.VeraCrypt" InstallArgs="" />
+    <Program Name="Windows PC Health Check" Id="Microsoft.WindowsPCHealthCheck" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Peripherals">
+    <Program Name="Corsair iCUE v4" Id="Corsair.iCUE.4" InstallArgs="" />
+    <Program Name="GIGABYTE Aorus Engine" Id="GIGABYTE.AORUS-ENGINE" InstallArgs="" />
+    <Program Name="Logitech G HUB" Id="Logitech.GHUB" InstallArgs="" />
+  </ProgramGroup>
+  <ProgramGroup Name="Browsers">
+    <Program Name="Brave" Id="Brave.Brave" InstallArgs="" />
+    <Program Name="Chromium" Id="Hibbiki.Chromium" InstallArgs="" />
+    <Program Name="Ungoogled Chromium" Id="eloston.ungoogled-chromium" InstallArgs="" />
+    <Program Name="Google Chrome" Id="Google.Chrome" InstallArgs="" />
+    <Program Name="LibreWolf" Id="LibreWolf.LibreWolf" InstallArgs="" />
+    <Program Name="Microsoft Edge" Id="Microsoft.Edge" InstallArgs="" />
+    <Program Name="Opera" Id="Opera.Opera" InstallArgs="" />
+    <Program Name="Opera Crypto" Id="Opera.OperaCrypto" InstallArgs="" />
+    <Program Name="Opera GX" Id="Opera.OperaGX" InstallArgs="" />
+    <Program Name="SeaMonkey" Id="Mozilla.SeaMonkey" InstallArgs="" />
+    <Program Name="Tor Browser" Id="TorProject.TorBrowser" InstallArgs="" />
+    <Program Name="Vivaldi" Id="VivaldiTechnologies.Vivaldi" InstallArgs="" />
+  </ProgramGroup>
+</ProgramGroups>
