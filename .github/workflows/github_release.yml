@@ -35,7 +35,7 @@ jobs:
         with:
           name: built-binary
           path: |
-            .\build\*.exe
+            *.exe
 
   release:
     name: Create Release
