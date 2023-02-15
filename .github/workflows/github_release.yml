@@ -85,6 +85,16 @@ jobs:
         run: |
           py -c "import re; from pathlib import Path; text=re.sub('<!--(.*?)-->', '', (Path.cwd() / 'CHANGELOG.md').read_text(), flags=re.DOTALL); start=text.find('_' * 79); (Path.cwd() / 'TEMP_CHANGELOG.md').write_text(text[start:text.find('_' * 79, start+1)])"
 
+      - name: Create ZIP-file
+        run: |
+          mkdir ./winit-${{ steps.version.outputs.full }}
+          Copy-Item ./CHANGELOG.md -Destination ./winit-${{ steps.version.outputs.full }}
+          Copy-Item ./LICENSE -Destination ./winit-${{ steps.version.outputs.full }}
+          Copy-Item ./README.md -Destination ./winit-${{ steps.version.outputs.full }}
+          Copy-Item ./Winit/applications.xml -Destination ./winit-${{ steps.version.outputs.full }}
+          Copy-Item *.exe -Destination ./winit-${{ steps.version.outputs.full }}
+          Compress-Archive -Path ./winit-${{ steps.version.outputs.full }}/* -CompressionLevel Fastest -DestinationPath winit-${{ steps.version.outputs.full }}.zip
+
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v1
@@ -97,4 +107,4 @@ jobs:
           prerelease: ${{ steps.is_prerelease.outputs.value }}
           body_path: ./TEMP_CHANGELOG.md
           files: |
-            *.exe
+            *.zip
