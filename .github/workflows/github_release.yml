@@ -35,7 +35,7 @@ jobs:
         with:
           name: built-binary
           path: |
-            *.exe
+            .\Winit\*.exe
 
   release:
     name: Create Release
