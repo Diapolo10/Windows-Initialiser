@@ -27,11 +27,15 @@ jobs:
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module ps2exe
 
-      - name: Build releases
+      - name: Build x86 release
         shell: powershell
         run: |
-          ps2exe .\Winit\main.ps1 -verbose
-          Get-ChildItem -Path . -Recurse
+          ps2exe .\Winit\main.ps1 .\winit_x86.exe -x86 -verbose -version ${{ github.ref_name }} -title Winit -description "Helper utility for installing software on new Windows installs" -company "Team DeltaV" -product Winit -copyright "Lari Liuhamo 2023" -trademark "Team DeltaV"
+
+      - name: Build x64 release
+        shell: powershell
+        run: |
+          ps2exe .\Winit\main.ps1 .\winit_x64.exe -x64 -verbose -version ${{ github.ref_name }} -title Winit -description "Helper utility for installing software on new Windows installs" -company "Team DeltaV" -product Winit -copyright "Lari Liuhamo 2023" -trademark "Team DeltaV"
 
       - name: Upload builds
         uses: actions/upload-artifact@v3
