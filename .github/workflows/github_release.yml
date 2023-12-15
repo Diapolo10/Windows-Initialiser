@@ -44,7 +44,7 @@ jobs:
           ps2exe .\Winit\main.ps1 .\winit_x64.exe -x64 -verbose -version "${{ steps.version.outputs.major_without_prefix }}.${{ steps.version.outputs.minor }}.${{ steps.version.outputs.patch }}" -title Winit -description "Helper utility for installing software on new Windows installs" -company "Team DeltaV" -product Winit -copyright "Lari Liuhamo 2023" -trademark "Team DeltaV"
 
       - name: Upload builds
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: built-binary
           path: |
